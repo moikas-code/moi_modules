@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://56s13fw7rpy0"]
+
+[ext_resource type="Script" path="res://moi_modules/components/camera/player_camera.gd" id="1_omvql"]
+
+[node name="PlayerCamera" type="Camera2D"]
+script = ExtResource("1_omvql")
+camera_speed = 7.0
+camera_offset_vector = Vector2(20, 0)
