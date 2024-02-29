@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c242ph8v4i4ef"]
+
+[ext_resource type="Script" path="res://moi_modules/components/handlers/despawn_handler.gd" id="1_as53v"]
+
+[node name="DespawnHandler" type="Node2D"]
+script = ExtResource("1_as53v")
+
+[node name="Timer" type="Timer" parent="."]
