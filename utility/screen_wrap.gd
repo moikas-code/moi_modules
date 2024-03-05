@@ -7,8 +7,5 @@ class_name ScreenWrap
 func wrap_screen(entity)->void:
 	if entity == null:
 		return
-	
-	if entity.position.x > screen_size.x:
-		entity.position.x = 0
-	if entity.position.x < 0:
-		entity.position.x = screen_size.x
+	entity.position.x = fposmod(entity.position.x, screen_size.x)
+	entity.position.y = fposmod(entity.position.y, screen_size.y)
