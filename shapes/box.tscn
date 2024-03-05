@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://br085gvnvrbtg"]
+
+[ext_resource type="Texture2D" uid="uid://cw8b3s6jicvh2" path="res://moi_modules/assets/orange_square.png" id="1_4684d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bxcgs"]
+albedo_texture = ExtResource("1_4684d")
+
+[node name="Box" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.500271, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material_override = SubResource("StandardMaterial3D_bxcgs")
