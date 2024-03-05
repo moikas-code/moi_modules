@@ -2,7 +2,7 @@ extends Node2D
 class_name RandomPosititon
 
 
-func get_random_positon(entity:BaseEntity):
+func get_random_positon(entity:BaseEntity2D):
 	if entity == null:
 		return
 		
