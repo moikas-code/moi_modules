@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccjogkedbp6kb"]
+
+[ext_resource type="Script" path="res://moi_modules/world/3D/base_world.gd" id="1_8gw66"]
+
+[node name="BaseWorld" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+script = ExtResource("1_8gw66")
+
+[node name="Map" type="Node3D" parent="."]
+
+[node name="Floor" type="CSGBox3D" parent="Map"]
+size = Vector3(1000, 1, 1000)
