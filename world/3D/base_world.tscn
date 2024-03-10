@@ -9,4 +9,5 @@ script = ExtResource("1_8gw66")
 [node name="Map" type="Node3D" parent="."]
 
 [node name="Floor" type="CSGBox3D" parent="Map"]
+use_collision = true
 size = Vector3(1000, 1, 1000)

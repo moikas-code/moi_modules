@@ -10,3 +10,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.500271, 0)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 material_override = SubResource("StandardMaterial3D_bxcgs")
+use_collision = true
