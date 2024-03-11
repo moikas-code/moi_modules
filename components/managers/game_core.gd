@@ -14,5 +14,5 @@ func get_time()->int:
 func add_time(value:int)->void:
 	time += value
 
-func on_game_over()->void:
+func on_game_over(menu)->void:
 	pass
